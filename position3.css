@@ -1,0 +1,31 @@
+*{
+	margin: 0;
+	padding: 0.5rem;
+	box-sizing: border-box;
+}
+ul{
+	line-height: 1.5;
+	text-align: left;
+	marign: 0;
+	pading: 1rem;
+	background-color: grey;
+	text-color: black;
+	list-style-type: none;
+}
+li{
+	display: inline;
+	margin: 1.5rem;
+}
+header{
+	background-color: black;
+	color: yellow;
+	text-align: center;
+}
+.box{
+	position: relative;
+	width: 250px;
+	height: 250px;
+	margin: 20px;
+	display: inline-table;
+	bottom: 300px;
+}
