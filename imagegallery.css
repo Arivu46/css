@@ -1,0 +1,16 @@
+body{
+	background-color: pink;
+}
+.container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	
+}
+.container div{
+	width: 200px;
+	flex-grow: 1;
+	justify-content: space-between;
+	text-align: center;
+}
+
