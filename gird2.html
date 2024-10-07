@@ -1,0 +1,55 @@
+<html>
+	<head>
+		<style>
+			.container{
+				display: grid;
+				grid-template-rows: 100px 200px;
+				grid-template-areas:
+					"header header header"
+					"main main main"
+					"footer footer footer";
+				grid-gap: 10px 20px;
+				height: 400px;
+				width: 1350px;
+			}
+			.item{
+				margin: 5px;
+				padding: 10px;
+				border: 1px solid #ccc;
+				background-color: white;
+			}
+			li{
+				display: inline;
+				list-style-type: none;
+				justify-content: space-between;
+			}
+			.header{
+				grid-area: header;
+				text-align: center;
+				color: red;
+			}
+			.main{
+				grid-area: main;
+				text-align: center;
+			}
+			.footer{
+				grid-area: footer;
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="item header"><h2>AMAZON ZONE OFFER</h2>
+				<nav>
+					<li>Mobiles</li>
+					<li>Electronics</li>
+					<li>Watches</li>
+					<li>Dresses</li>
+				<nav>
+			</div>
+			<div class="item main">main</div>
+			<div class="item footer">footer</div>
+		</div>
+	</body>
+</html>
